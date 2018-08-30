@@ -1,0 +1,17 @@
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8082
+  servlet:
+    context-path: /ip
+
+spring:
+  freemarker:
+    suffix: .html
+    request-context-attribute: request
+    chartset: UTF-8
+    cache: false
+    settings:
+      #兼容null
+      classic_compatible: true
+      number_format:

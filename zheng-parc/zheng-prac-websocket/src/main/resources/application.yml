@@ -1,0 +1,12 @@
+server:
+  port: 9001
+spring:
+  freemarker:
+    suffix: .html
+    cache: false
+    request-context-attribute: request
+    charset: UTF-8
+    settings:
+      #兼容null
+      classic_compatible: true
+      number_format:
